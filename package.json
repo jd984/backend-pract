@@ -1,0 +1,15 @@
+{
+  "name": "backend-pract",
+  "version": "1.0.0",
+  "description": "A Backend Practice Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs"
+  ],
+  "author": "Jesal Thakuur",
+  "license": "ISC"
+}
