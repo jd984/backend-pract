@@ -16,4 +16,10 @@ app.use(express.urlencoded({ extended: true, limit: "10kb" })); // to encode the
 app.use(express.static("public")); // used to create a folder that will stored public assets
 app.use(cookieParser()); //use to access the cookie or perform crud operation on cookie in user browser
 
+// routes import
+import userRoutes from "./routes/user.routes.js";
+
+// route declaration
+app.use("/api/v1/users", userRoutes);
+
 export { app };
